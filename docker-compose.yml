@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+
+  app:
+    image: flutter-app:latest
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/app
+
+
+# version: '3.8'
+
+# services:
+
+#   app:
+#     image: flutter-app:latest
+#     ports:
+#       - 8080:8080
+#     volumes:
+#       - .:/app
